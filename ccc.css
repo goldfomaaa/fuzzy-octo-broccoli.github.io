@@ -1,0 +1,87 @@
+body{ 
+padding: 0; 
+margin: 0; 
+font-family: Tahoma, serif; 
+} 
+header, footer { 
+background: #424242; 
+padding: 10px 0; 
+} 
+h1 { 
+text-align: center; 
+color: #fff; 
+font-size: 10px; 
+} 
+div { 
+width: 1200px; 
+margin: 0 auto; 
+overflow: hidden; 
+} 
+aside, main { 
+width: 50%; 
+float: left; 
+} 
+aside img { 
+display: block; 
+width: 80%; 
+margin: 0 auto; 
+} 
+#fone { 
+background-color: #F6F2F2; 
+} 
+#baton { 
+background: #FF2D2D; /* Синий цвет фона */ 
+color: white; /* Белые буквы */ 
+font-size: 9px; /* Размер шрифта в пунктах */ 
+} 
+nav { 
+width: 960px; 
+margin: 0 auto; 
+} 
+nav:before { 
+content: ''; 
+display: block; 
+height: 50px; 
+width: 100%; 
+background: #000; 
+position: absolute; 
+left: 0; 
+z-index: -1; 
+} 
+ul { 
+margin: 0; 
+padding: 0; 
+list-style: none; 
+height: 50px; 
+} 
+ul li{ 
+float: left; 
+} 
+ul li a{ 
+color: #fff; 
+display: block; 
+height: 50px; 
+padding: 0 30px; 
+text-transform: uppercase; 
+text-decoration: none; 
+line-height: 50px; 
+} 
+ul li a:hover { 
+background: #d34d43; 
+} 
+#buton { 
+background: blue; /* Синий цвет фона */ 
+color: white; /* Белые буквы */ 
+font-size: 9px; /* Размер шрифта в пунктах */ 
+} 
+table.text { 
+width: 100%; /* Ширина таблицы */ 
+border-spacing: 0; /* Расстояние между ячейками */ 
+} 
+table.text td { 
+width: 50%; /* Ширина ячеек */ 
+vertical-align: top; /* Выравнивание по верхнему краю */ 
+} 
+td.rightcol { /* Правая ячейка */ 
+text-align: right; /* Выравнивание по правому краю */ 
+}
